@@ -24,6 +24,8 @@
     padding-right: 41px;
 }
 .promo{
+	padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
 	display: flex;
 	justify-content: space-between;
 	height: 764px;
@@ -63,7 +65,9 @@
     padding-top: 48px;
 }
 .item{
-
+	width: 359px;
+	background: #F8F8F8;
+	margin-bottom: 30px;
 }
 .button{
 	border: 1px solid #FF6A6A;
@@ -79,10 +83,52 @@
 	height: 341px;
 	background: #222224;
 }
+.footerUpItem{
+	height: 341px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
 .footer_centr{
+	height: 448px;
+	background-image: url(image/subscribe.jpg);
+	background-size: cover;
+}
+.footerImg{
+	width: 100%
 	height: 448px;
 }
 .footer_end{
 	height: 79px;
 	background: #222224;
 }
+.iconFooterEnd{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.copyright{
+	height: 79px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FBFBFB;
+}
+.icon_footer{
+	display: flex;
+	gap:7px;
+}
+.iconFooter{
+	width: 32px;
+	height: 32px;
+	background-color: #FFFFFF;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.iconFooter:hover{
+	background-color: #F16D7F;
+}
+
